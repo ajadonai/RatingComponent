@@ -1,0 +1,103 @@
+/* global style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+}
+
+/* Stars */
+.star,
+.star:hover,
+.star.active {
+  color: hsl(217, 12%, 63%);
+}
+
+.star:hover {
+  background-color: hsla(240, 1%, 84%, 0.5);
+  color: white;
+  font-weight: 500;
+}
+
+.star.active {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-weight: 500;
+}
+
+/* Buttons */
+button {
+  border: none !important;
+}
+
+.submit,
+.submit:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.submit:disabled {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+/* Thank You State */
+.orange {
+  background-color: hsl(225, 2%, 45%, 0.5);
+  color: hsl(25, 97%, 53%);
+  width: 65%;
+}
+
+/* Versatile Style */
+.container {
+  background-color: hsl(213, 19%, 18%);
+}
+
+.bg-grey {
+  background-color: hsl(225, 2%, 45%, 0.5);
+}
+
+.w-17 {
+  width: 17%;
+  height: 50px;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.w-100 {
+  width: 400px !important;
+}
+
+/* Display */
+.hide {
+  display: none;
+}
